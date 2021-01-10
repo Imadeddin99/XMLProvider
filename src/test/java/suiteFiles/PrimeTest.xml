@@ -1,0 +1,50 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="CalculatorSuite" verbose="1" >
+    <test name="Addition" >
+        <parameter name="number1" value="5"/>
+        <parameter name="expectedResult" value="true"/>
+        <classes>
+            <class name="XMLPrime" />
+        </classes>
+    </test>
+    <test name="Addition1" >
+        <parameter name="number1" value="2"/>
+        <parameter name="expectedResult" value="true"/>
+        <classes>
+            <class name="XMLPrime" />
+        </classes>
+    </test>
+    <test name="Addition2" >
+        <parameter name="number1" value="12"/>
+        <parameter name="expectedResult" value="false"/>
+        <classes>
+            <class name="XMLPrime" />
+        </classes>
+    </test>
+    <test name="Addition3" >
+        <parameter name="number1" value="1"/>
+        <parameter name="expectedResult" value="false"/>
+        <classes>
+            <class name="XMLPrime" />
+        </classes>
+    </test>
+    <test name="Addition4" >
+        <parameter name="number1" value="0"/>
+        <parameter name="expectedResult" value="false"/>
+        <classes>
+            <class name="XMLPrime" />
+        </classes>
+    </test>
+
+    <test name="Addition5" >
+        <parameter name="number1" value="-5"/>
+        <parameter name="expectedResult" value="false"/>
+        <classes>
+            <class name="XMLPrime" />
+        </classes>
+    </test>
+
+
+
+</suite>

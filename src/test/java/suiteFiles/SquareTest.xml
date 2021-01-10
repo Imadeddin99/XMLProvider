@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="CalculatorSuite" verbose="1" >
+    <test name="Addition" >
+        <parameter name="number1" value="5"/>
+        <parameter name="expectedResult" value="25"/>
+        <classes>
+            <class name="XMLSquare" />
+        </classes>
+    </test>
+    <test name="Addition1" >
+        <parameter name="number1" value="2.4"/>
+        <parameter name="expectedResult" value="5.76"/>
+        <classes>
+            <class name="XMLSquare" />
+        </classes>
+    </test>
+    <test name="Addition2" >
+        <parameter name="number1" value="-5"/>
+        <parameter name="expectedResult" value="25"/>
+        <classes>
+            <class name="XMLSquare" />
+        </classes>
+    </test>
+    <test name="Addition3" >
+        <parameter name="number1" value="-5.4"/>
+        <parameter name="expectedResult" value="29.16"/>
+        <classes>
+            <class name="XMLSquare" />
+        </classes>
+    </test>
+    <test name="Addition4" >
+        <parameter name="number1" value="0"/>
+        <parameter name="expectedResult" value="0"/>
+        <classes>
+            <class name="XMLSquare" />
+        </classes>
+    </test>
+
+
+
+
+</suite>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [CalculatorSuite]" verbose="0">
+  <parameter name="expectedResult" value="false"/>
+  <parameter name="number1" value="-5"/>
+  <test parallel="none" name="Addition3(failed)" preserve-order="true">
+    <parameter name="expectedResult" value="false"/>
+    <parameter name="number1" value="1"/>
+    <classes>
+      <class name="XMLPrime">
+        <methods>
+          <include name="testCase" invocation-numbers="0 0 0 0 0 0 0"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test parallel="none" name="Addition5(failed)" preserve-order="true">
+    <parameter name="expectedResult" value="false"/>
+    <parameter name="number1" value="-5"/>
+    <classes>
+      <class name="XMLPrime">
+        <methods>
+          <include name="testCase" invocation-numbers="0 0 0 0 0 0 0"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test parallel="none" name="Addition4(failed)" preserve-order="true">
+    <parameter name="expectedResult" value="false"/>
+    <parameter name="number1" value="0"/>
+    <classes>
+      <class name="XMLPrime">
+        <methods>
+          <include name="testCase" invocation-numbers="0 0 0 0 0 0 0"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
